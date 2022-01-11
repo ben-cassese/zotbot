@@ -13,7 +13,7 @@ ScriptApp.newTrigger("menus")
    .onOpen()
    .create();
 
-ScriptApp.newTrigger("link_dashboard_notes(e)")
+ScriptApp.newTrigger("link_dashboard_notes")
    .forSpreadsheet(SpreadsheetApp.getActive())
    .onEdit()
    .create();
